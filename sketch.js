@@ -79,9 +79,9 @@ function draw() {
 
   background(180);
   //exibir pontuação
- fill ("black");
- textSize (25);
- text (score, 500, 50);
+  textSize(20);
+  fill("black")
+  text("Score: "+ score,30,50);
 
   console.log("isto é ", gameState)
 
